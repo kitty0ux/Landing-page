@@ -20,12 +20,13 @@ body {
    display: flex;
    justify-content: space-between;
    width: 1200px;
-   border: 1px solid white;  
 }
 
 .right-links   {
    display: flex;
    justify-content: flex-end;
+   gap: 20px;
+   font-weight: lighter;
 }
 
 a {
@@ -35,4 +36,32 @@ a {
 
  .link-three {
    margin-left: 20px;
+ }
+
+ .header-container {
+   display: flex;
+   justify-content: center;
+   background-color: #1f2397;
+   color: white;
+   padding: 0 0 50px 0;
+ }
+
+ .main-header {
+   display: flex;
+   justify-content: space-between;
+   width: 1200px;
+ }
+
+ .header {
+   width: 410px;
+ }
+ .line-break {
+   display: block;
+ }
+
+
+ button {
+   background-color: #3882F6;
+   padding: 2px 10px;
+   color: white;
  }
