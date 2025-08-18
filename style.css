@@ -140,4 +140,15 @@ a {
    border-color: #e5e7eb;
  }
   
-  
+  .footer {
+   background-color: #1F2937;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #e5e7eb;
+   margin-top: 70px;
+  }
+
+  .footer-container {
+   padding: 15px 250px;
+  }
