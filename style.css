@@ -40,3 +40,57 @@ a {
    text-decoration: none;
    
 }
+
+  .hero-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #1F2937;
+   color: #e5e7eb;
+   padding: 70px 250px;
+   
+  }
+
+  .button {
+   border-radius: 9px;
+   padding: 10px 25px;
+   background-color: #3882f6;
+   color: #e5e7eb;
+   font-weight: 900;
+   margin-top: 9px;
+  }
+
+  .info-header {
+   text-align: center;
+   font-size: 36px;
+   color: #1F2937;
+   font-weight: 900;
+  }
+  
+  .cards {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 50px 250px;
+  }
+
+  .card-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 75px;
+  }
+
+  .box {
+   display: flex;
+   padding: 70px;
+   border: 2px solid #3882f6;
+   border-radius: 10px;
+   
+  }
+
+  .info-text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
