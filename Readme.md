@@ -1,0 +1,1 @@
+It's an amazing feeling, completing this project. some lessons i thought i fully understand, all thanks to this project for putting a spotlight on the gaps needed to be filled. lol i had to re-visit previous lessons. shout out to the Odin Project, it's amzing community. And one last shout out to myself for keeping my focus and getting up this stage. 
