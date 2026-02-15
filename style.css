@@ -24,9 +24,10 @@ body {
 
 .header-wrapper {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 15px 100px;
   background-color: #1F2937;
+  border-bottom: 1px solid gray;
 
 }
 
@@ -35,16 +36,17 @@ body {
 .logo {
    font-size: 24px;
    color: #f9faf8;
-   width: 10x;
-   flex-grow: 1;
-   flex-shrink: 1;
-   flex-basis: auto;
+   /* width: 10x; */
+   margin-right: auto;
+  
 }
 
 .navbar {
   display: flex;
+  justify-content: end;
   font-size: 18px;
-   gap: 10px; 
+  flex-shrink: 0;
+   gap: 15px; 
    
 }
 
@@ -63,19 +65,18 @@ body {
 
 .hero-text {
    text-wrap: wrap;
-   flex: 1;
+   flex-shrink: 0;
   }
 
   .hero-box {
     padding: 30px 60px;
     background-color: darkgrey;
-    box-sizing: border-box;
     height: 250px;
     width: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 1;
+    flex-shrink: 0;
     
   }
 
@@ -160,7 +161,7 @@ body {
 .call-container {
 
   display: flex;
-flex-direction: column;
+/* flex-direction: column; */
    flex: auto;
    justify-content: center;
    align-items: stretch;
@@ -169,15 +170,25 @@ flex-direction: column;
 
 .call-wrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   /* height: 100px;
   padding: 15px; */
   padding: 40px 100px;
-  flex: auto;
+  
   border-radius: 10px;
   background-color: #3882f6;
    color: #e5e7eb;
+ }
+
+ .call {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+ }
+ .text {
+  display: flex;
+  
  }
 
 
