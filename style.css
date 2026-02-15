@@ -60,7 +60,7 @@ body {
    color: #e5e7eb;
    padding: 80px 100px; */
    margin-bottom: 30px;
-   
+    padding: 80px 100px;
   }
 
   .hero-wrapper {
@@ -70,7 +70,6 @@ body {
    flex-wrap: nowrap;
    background-color: #1F2937;
    color: #e5e7eb;
-   padding: 80px 100px;
   }
 
 .hero-text {
