@@ -51,7 +51,19 @@ body {
 }
 
 
-.hero-container {
+ .hero-container { /*
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: nowrap;
+   background-color: #1F2937;
+   color: #e5e7eb;
+   padding: 80px 100px; */
+   margin-bottom: 30px;
+   
+  }
+
+  .hero-wrapper {
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -59,8 +71,6 @@ body {
    background-color: #1F2937;
    color: #e5e7eb;
    padding: 80px 100px;
-   margin-bottom: 30px;
-   
   }
 
 .hero-text {
